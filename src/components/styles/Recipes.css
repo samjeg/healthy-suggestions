@@ -38,7 +38,7 @@
 
 .recipes-container {
 	width: 60vw;
-	margin: 6rem auto 0 auto; /* margin at the top to push down the container so the contents in the container are not hiddden by the header */
+	margin: 6rem auto 5rem auto; /* margin at the top to push down the container so the contents in the container are not hiddden by the header */
 	padding: 0.5rem;
 	display: flex;
 	flex-direction: column; /* vertically displays the content of the recipe-container */
