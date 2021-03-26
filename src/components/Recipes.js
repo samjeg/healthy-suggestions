@@ -7,17 +7,6 @@ import Positives from './Positives';
 
 function Recipes(props) {
         
-    console.log(typeof data);
-    console.log(data.length);
-    console.log("title: " + data[0].title);
-    console.log("paragraph: " + data[0].paragraph);
-    console.log("image: " + data[0].image);
-    console.log("rating: " + data[0].rating);
-    console.log("vegetarian: " + data[0].vegetarian);
-    console.log("vegan: " + data[0].vegan);
-    console.log("healthy: " + data[0].healthy);
-    
-
     return (
         <div>
             <section className="head-panel">
