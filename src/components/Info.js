@@ -3,7 +3,7 @@ import './styles/reset.css';
 import './styles/Info.css';
 
 
-function Info() {
+const Info = () => {
     return (
         <div>
         <section className="head-panel">

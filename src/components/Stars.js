@@ -2,10 +2,10 @@ import React from 'react';
 import './styles/reset.css';
 import './styles/Stars.css';
 
-function Stars(props) {
+const Stars = ({ size }) => {
     let ratings = [];
 
-    for(let i=0; i<props.size; i++) {
+    for(let i=0; i<size; i++) {
     	ratings.push(<i className="fas fa-star" key={i}></i>);
     }
 

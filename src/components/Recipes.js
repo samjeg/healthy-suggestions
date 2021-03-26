@@ -5,7 +5,7 @@ import data from '../data/recipe_items.json';
 import Stars from './Stars';
 import Positives from './Positives';
 
-function Recipes(props) {
+const Recipes = () => {
         
     return (
         <div>
