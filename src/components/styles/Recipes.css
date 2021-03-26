@@ -93,7 +93,7 @@
 
 .recipes-container .recipes .recipe-item .rcp-health-score-container {
 	float: left;
-	width: 12vw;
+	width: 20vw;
 	height: 14.5vh;
 	padding: 0.5rem;
 	margin: 0 auto 0 0;
@@ -104,35 +104,9 @@
 .recipes-container .recipes .recipe-item .rcp-health-score-container .name {
 	float: left;
 	margin: 0 0.5rem 1rem 0.2rem;
-	font: 700 1.3rem rem Roboto, Montserrat, sans-serif;
+	font: 700 1rem rem Roboto, Montserrat, sans-serif;
 	display: block;
 	text-align: left; /* sets text to the start/left of the element */
-}
-
-.recipes-container .recipes .recipe-item .rcp-health-score-container .health-score {
-	float: left;
-	width: 8vw;
-	height: 6vh;
-	margin: 0;
-	padding: 0;
-	display: flex;
-}
-
-/* star ratings list */
-.recipes-container .recipes .recipe-item .rcp-health-score-container .health-score li {
-	width: 1.4vw;
-	height: 1.4vw;
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.recipes-container .recipes .recipe-item .rcp-health-score-container .health-score li .fas {
-	float: left;
-	color: yellow;
-	font-size: 1rem;
-	display: block;
 }
 
 .recipes-container .recipes .recipe-item .recipe-positives {
@@ -237,7 +211,7 @@ footer {
     }
 
     .recipes-container .recipes .recipe-item .rcp-health-score-container .name {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .recipes-container .recipes .recipe-item .rcp-health-score-container .health-score {

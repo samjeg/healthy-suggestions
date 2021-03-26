@@ -1,0 +1,23 @@
+.health-score {
+	float: left;
+	width: 8vw;
+	height: 6vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+/* star ratings list */
+.health-score .fas {
+	width: 1.4vw;
+	height: 1.4vw;
+	margin: 0.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: yellow;
+	display: block;
+	float: left;
+	font-size: 1rem;
+}
+
