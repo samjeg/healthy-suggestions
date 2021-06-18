@@ -33,14 +33,7 @@ const RecipeDetail = () => {
             <ul class="attributes-2">
                 <li><p>healthy:</p>
                     <i class="fas fa-heartbeat"></i>
-                </li>{/*
-                <li><p>dairy included:</p>
-                    <i class="fas fa-cheese"></i>
                 </li>
-                <li>
-                    <p>cheap:</p>
-                    <i class="fas fa-piggy-bank"></i>
-                </li>*/}
                 <li>
                     <p>vegetarian:</p>
                     <i class="fas fa-leaf"></i>
@@ -55,9 +48,9 @@ const RecipeDetail = () => {
                 <div class="container-2">
                     <img class="img-2" alt="no image available" src={require("../images/dragne-marius-ennARkXrF74-unsplash.jpg")}/> {/*Image not renderring*/}
                 </div>
-                <div class="container-instr"> {/*Instructions should be paragraphs not list items*/}
-                    <label class="label-instr" for="instructions">Instructions:</label>
-                    <ul class="instructions">
+                <div class="container-steps"> {/*Instructions should be paragraphs not list items*/}
+                    <label class="label-steps" for="steps">Steps:</label>
+                    <ul class="steps">
                         <li>1/2 cup unsalted chicken broth</li>
                         <li>2 teaspoons cornstarch</li>
                         <li>1 teaspoon lemon or lime juice</li>

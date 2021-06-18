@@ -65,7 +65,6 @@ article .attributes {
     height: 5vh;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
 }
 
 article .attributes h2 {
@@ -74,21 +73,11 @@ article .attributes h2 {
     font-size: 1.2rem;
 }
 
-article .attributes .prep-time-label {
-    margin: 0.25rem 0.1rem 0 1rem;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
-article .attributes time {
-    margin: 0.25rem auto 0 0.1rem;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
 article .attributes .ratings-label {
+    float: right;
     font-weight: 700;
-    font-size: 1rem;   
+    font-size: 1rem; 
+    margin-left: 63vw;
 }
 
 article .attributes .ratings {
@@ -153,24 +142,24 @@ article .prep-info .container-2 .img-2 {
     height: auto;
 }
 
-article .prep-info .container-instr {
+article .prep-info .container-steps {
     min-width: 25vw;
     margin: 0 1rem 0 2rem;
 }
 
-article .prep-info .container-instr .label-instr {
+article .prep-info .container-steps .label-steps {
     font-size: 1.3rem;
     font-weight: 600;
     margin: 0 0 0 -1rem;
 }
 
-article .prep-info .container-instr .instructions {
-    list-style: square;
+article .prep-info .container-steps .steps {
+    list-style: none;
     margin: 0.5rem 0 0 0;
 }
 
-article .prep-info .container-instr .instructions li { 
-    margin-bottom: 0.4rem;
+article .prep-info .container-steps .steps li { 
+    margin-bottom: 1.5rem;
 }
 
 article .prep-info .container-ingr {
