@@ -14,8 +14,10 @@ const RecipeDetail = () => {
         <article>
             <div class="attributes">
                 <h2>Summary</h2>
-{/*                <label class="prep-time-label" for="prep-time">time:</label>
-                <time class="prep-time" datetime="PT4H18M3S">2h 30m</time>*/}
+                <label class="prep-time-label" for="prep-time">Prep time:</label>
+                <time class="prep-time" datetime="PT4H18M3S">25m</time>                
+                <label class="cooking-time-label" for="prep-time">Cooking time:</label>
+                <time class="cooking-time" datetime="PT4H18M3S">2h 30m</time>
                 <label class="ratings-label" for="ratings">ratings:</label> {/*Rating not in the correct position*/}
                 <ul class="ratings">
                     <li><i class="fas fa-star"></i></li>
@@ -45,9 +47,6 @@ const RecipeDetail = () => {
             </ul>   
 
             <section class="prep-info">
-                <div class="container-2">
-                    <img class="img-2" alt="no image available" src={require("../images/dragne-marius-ennARkXrF74-unsplash.jpg")}/> {/*Image not renderring*/}
-                </div>
                 <div class="container-steps"> {/*Instructions should be paragraphs not list items*/}
                     <label class="label-steps" for="steps">Steps:</label>
                     <ul class="steps">
