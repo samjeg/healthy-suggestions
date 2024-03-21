@@ -1,0 +1,173 @@
+
+header {
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 12vh;
+	position: fixed;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    
+    background-image:  url("images/pexels-magda-ehlers-1300972.jpg");
+    background-position: centre;
+    background-size: cover;
+
+}
+
+header i {
+	color: #ed9121;
+	font-size:  50px;
+	margin-left: 1.5rem;
+}
+
+header h1 {
+	color: #ffff33;
+	font: small-caps 45px "Open Sans", sans-serif;
+	margin-right: 1.5rem;
+}
+
+.recipes-container {
+	width: 60vw;
+	margin: 6rem auto 0 auto; /* margin at the top to push down the container so the contents in the container are not hiddden by the header */
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column; /* vertically displays the content of the recipe-container */
+	justify-content: center;	
+	align-items: center;
+}
+
+.recipes-container .recipes-title {
+	color: #000;
+	width: 54vw;
+	height: 5vh;
+	margin: 0.5rem 0 -0.5rem 0; /* centering the h2 tag with a small margin above */
+	font: 700 2.0rem Roboto, Montserrat, sans-serif;
+	display: flex;
+    z-index: -10;
+}
+
+.recipes-container .recipes {
+	list-style: none;
+	width:  56vw;
+	margin: 0 auto 0 auto;
+	padding:  1rem 0.5rem;
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.recipes-container .recipes .recipe-item {
+	color:  #000;
+	width:  54vw;
+	height:  14.5vh;
+	margin: 0.5rem 0 1rem 0;
+	padding:  0.5rem;
+	border-bottom:  0.3rem solid;
+	display: flex;
+	align-items: center;
+}
+
+.recipes-container .recipes .recipe-item .rcp-img-container {
+	float: left;
+	width:  10vw;
+	height:  14.5vh;
+	display: block;
+}
+
+.recipes-container .recipes .recipe-item .rcp-img-container .rcp-img {
+	float: left;
+	width:  10vw;
+	height:  14.5vh;
+	display: block;
+}
+
+.recipes-container .recipes .recipe-item .rcp-health-score-container {
+	float: left;
+	width: 12vw;
+	height: 14.5vh;
+	margin:  0 auto 0 0;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.recipes-container .recipes .recipe-item .rcp-health-score-container .name {
+    float: left;
+    margin:  0 0.5rem 1rem 0.2rem;
+    font:  700 1.3rem Roboto, Monterrat, sans-serif;
+    display: block;
+    text-align: left;
+}
+
+.recipes-container .recipes .recipe-item .rcp-health-score-container .health-score {
+	float: left;
+	width:  8vw;
+	height: 6vh;
+	margin: 0;
+	padding: 0;
+	display:  flex;
+}
+
+.recipes-container .recipes .recipe-item .rcp-health-score-container .health-score li .fas {
+    float:  left;
+	font: 1rem;
+	color:  yellow;
+	display: block;
+}
+
+.recipes-container .recipes .recipe-item .recipe-positives {
+	float: left;
+	width:  12vw;
+	height:  14.5vh;
+	margin-left:  0;
+	padding:  0.5vw;
+	display: flex;
+	flex-direction:  column;
+}
+
+.recipes-container .recipes .recipe-item .recipe-positives li {
+	width: 8vw;
+	height: 5vh;
+	margin-bottom: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+
+/* icon for recipe positive(currently check mark, couls switched to cross) */
+.recipes-container .recipes .recipe-item .recipe-positives li i {
+	float: left;
+	color: green;
+	font-size: 1rem;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.recipes-container .recipes .recipe-item .recipe-positives li p {
+    float: left;
+    font:  700 1rem Roboto, Monterrat, sans-serif;
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;    
+}
+
+
+footer {
+	color: #ffff33;
+	background-color: #227754;
+	position: fixed;
+	bottom: 0;
+	font: 500 1.8rem "Open Sans", sans-serif;
+	left: 0;
+	width: 100vw;
+	height: 15vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
